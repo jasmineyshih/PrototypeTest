@@ -15,6 +15,8 @@ function notify(){
     }
 }
 
+setTimeout(notify, 840000);
+
 setInterval(()=>{
     if(notified && !tookBreak){
         notify();
